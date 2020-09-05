@@ -1,0 +1,253 @@
+@font-face {
+  font-family: 'Myriad Pro';
+  src: url('../fonts/ofont.ru_Myriad Pro.eot');
+  src: local('☺'), url('../fonts/ofont.ru_Myriad Pro.woff') format('woff'), url('../fonts/ofont.ru_Myriad Pro.ttf') format('truetype'), url('../fonts/ofont.ru_Myriad Pro.svg') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+
+
+
+* {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	text-decoration: none;
+	line-height: 1;
+	box-sizing: border-box;
+	font-size: 100%;
+
+}
+body {
+	font-family: 'Roboto', sans-serif;
+}
+.container {
+	padding: 0 15px;
+	max-width: 1050px;
+	margin: 0 auto;
+} 
+.header {
+padding: 15px;
+}
+.header::before {
+	content: '';
+	display: block;
+	max-width: 100%;
+	background: url('../icons/head.jpg') no-repeat center / contain;											
+}
+
+.header__inner {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}	
+.header__nav .header__nav-list {
+	display: flex;
+	align-items: center;
+}
+
+.header__nav-link {
+	font-size: 20.35px;
+  	font-family: "Myriad Pro";
+  	color: rgb(108, 108, 108);
+  	padding: 0 20px;
+}
+
+.logo__link {
+	font-size: 42.35px;
+  	font-family: "Myriad Pro";
+  	color: rgb(0, 0, 0);
+  	padding: 5px;
+}
+.logo__link::before {
+	content: '';
+	position: absolute;
+	left: 150px;
+	width: 44px;
+	height: 44px;
+	background: url('../icons/logo.png') no-repeat left / contain;
+
+}
+.btn {
+	font-size: 22.35px;
+  	font-family: "Myriad Pro";
+	color: rgb(255, 255, 255);
+	border: none;
+	border-radius: 3px;
+	position: absolute;
+  	left: 638px;
+  	top: 404px;
+}
+
+.btn-primary {
+	display: flex;
+	background: #5094f2;
+	padding: 7px 15px;
+}
+.btn-primary::before {
+	content: '';
+	padding-right: 10px;
+  	width: 23px;
+  	height: 23px;
+	background: url('../icons/button.png') no-repeat left / contain;
+}
+.banner {
+
+    padding-top: 460px;
+    padding-bottom: 120px;
+	background: url('../icons/banner.jpg') no-repeat center / cover;
+ }
+.text {
+position: absolute;
+left: 630px;
+top: 250px;
+}
+.iphone {
+	position: absolute;
+  	left: 177px;
+  	top: 127px;
+}
+
+.shape__inner {
+	text-align: center;
+	align-items: flex-start;
+	justify-content: space-between;
+}
+
+ .shape__img {
+	display: flex;
+	justify-content: space-around;
+	padding: 30px;
+	    margin: 0 -90px;
+}
+.shape1 {
+
+	border-radius: 50%;
+  	background-color: rgb(80, 148, 242);
+    width: 186px;
+  	height: 186px;
+}
+.shape2 {
+
+	background-color: rgb(217, 71, 72);
+ 	border-radius: 50%;
+    width: 186px;
+  	height: 186px;
+}
+.shape3 {
+
+	border-radius: 50%;
+  	background-color: rgb(235, 187, 17);
+    width: 186px;
+  	height: 186px;
+}
+.shape1-img{
+	margin: 20%;
+    padding-bottom: 20px;
+}
+
+.shape2-img {
+	margin: 30% auto;
+    padding-bottom: 10px;
+}
+ .shape3-img{
+ 	margin: 25%;
+    padding-bottom: 20px;
+}
+
+ 
+.shape__link {
+	font-size: 20.35px;
+  	font-family: "Myriad Pro";
+  	color: rgb(80, 148, 242);
+}
+.shape_txt {
+	margin: 15px;
+	font-size: 14.35px;
+  	font-family: "Myriad Pro";
+  	color: rgb(144, 144, 144);
+    line-height: 1.2;
+}
+
+.cart {
+	margin-top: 150px;
+}
+.cart__inner {
+  display: flex;
+  justify-content: space-between;
+}
+
+.cart__title {
+    padding-top: 50px;
+    flex-basis: 41%;
+    position: relative;
+    left: -120px;
+}
+
+.cart_shop {
+	padding-left: 30px;
+	font-size: 42.35px;
+  	font-family: "Myriad Pro";
+  	color: rgb(111, 113, 115);
+}
+.cart_shop::after {
+	content: '';
+	padding-right: 10px;
+	display: block;
+	margin-top: 40px;
+  	width: 371px;
+  	height: 279px;
+	background: url('../icons/cart.png') no-repeat left / contain;
+
+}
+.cart_span {
+	font-size: 26.35px;
+  	font-family: "Myriad Pro";
+  	color: rgb(111, 113, 115);
+
+}
+.cart_txt {
+	padding-top: 30px;
+	font-size: 15.35px;
+  	font-family: "Myriad Pro";
+  	color: rgb(144, 144, 144);
+  	line-height: 2.345;
+}
+
+hr {
+	margin-top: 60px;
+	border: solid 1px #f3f3f3;
+}
+
+
+.footer {
+	font-size: 15.35px;
+ 	font-family: "Myriad Pro";
+  	color: rgb(144, 144, 144);
+  	text-align: center;
+  	margin-top: 40px;
+  	margin-bottom: 40px;
+}  
+
+
+
+.The_Shopping_cart {
+  font-size: 42.35px;
+  font-family: "Myriad Pro";
+  color: rgb(111, 113, 115);
+  line-height: 1.049;
+  text-align: left;
+  position: absolute;
+  left: 167.501px;
+  top: 1041.873px;
+  z-index: 41;
+}
+
+
+
+
+
+
+
+
